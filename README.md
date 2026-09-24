@@ -16,7 +16,7 @@ The core motivation is methodological: evaluating how deterministic mean-field v
 
 Given centered observations $x_i \in \mathbb{R}^p$ for $i = 1, \dots, n$ and a latent capacity $K_{\max}$:
 
-$$x_i \mid z_i, W, \psi \sim \mathcal{N}(W z_i, \operatorname{diag}(\psi))$$
+$$x_i \mid z_i, W, \psi \sim \mathcal{N}(W z_i, \mathrm{diag}(\psi))$$
 $$W_{jk} \mid \alpha_k \sim \mathcal{N}\left(0, \alpha_k^{-1}\right)$$
 $$z_k \sim \mathcal{N}\left(0, Q^{-1}\right), \quad Q = I + \rho L$$
 

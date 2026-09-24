@@ -1,4 +1,4 @@
-"""Make ``import bfa`` work when running pytest from the repository root."""
+"""Configure test environment and resolve package imports from src/."""
 import os
 import sys
 

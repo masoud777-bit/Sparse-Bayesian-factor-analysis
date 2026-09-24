@@ -1,5 +1,7 @@
 # Sparse Bayesian Factor Analysis via Exact Variational Inference
 
+[![Python application](https://github.com/masoud777-bit/Sparse-Bayesian-factor-analysis/actions/workflows/python-app.yml/badge.svg)](https://github.com/masoud777-bit/Sparse-Bayesian-factor-analysis/actions/workflows/python-app.yml)
+
 A PyTorch implementation of sparse Bayesian factor analysis (BFA) designed to investigate latent subspace recovery, automatic dimensionality selection via ARD, and spatial regularization on arbitrary graph structures.
 
 The core motivation is methodological: evaluating how deterministic mean-field variational inference behaves under well-specified versus heavy-tailed observation noise, and verifying whether graph-Laplacian priors reliably enforce spatial coherence in latent representations.
